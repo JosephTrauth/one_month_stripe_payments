@@ -5,7 +5,7 @@ ruby '2.2.1'
 gem 'rails', '4.2.5.1'
 # Use sqlite3 as the database for development and test
 gem 'sqlite3' , group: [:development , :test]
-
+gem  'bootstrap-sass'
 gem 'pg' , group: :production
 
 gem 'rails_12factor', group: :production
