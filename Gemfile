@@ -8,7 +8,10 @@ gem 'sqlite3' , group: [:development , :test]
 gem  'bootstrap-sass'
 gem 'pg' , group: :production
 
-gem 'rails_12factor', group: :production
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+# Add stripe for payment processing
+
+
 
 # Use SCSS for styleshe:essor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
