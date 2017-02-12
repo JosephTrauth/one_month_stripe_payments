@@ -11,6 +11,8 @@ gem 'pg' , group: :production
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # Add stripe for payment processing
 
+gem 'figaro' , "~> 0.7.0"
+
 
 
 # Use SCSS for styleshe:essor for JavaScript assets
