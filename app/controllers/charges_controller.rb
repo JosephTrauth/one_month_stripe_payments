@@ -1,4 +1,4 @@
-
+d
 class ChargesController <ApplicationController
 
 	def create

@@ -13,7 +13,8 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 gem 'figaro' , "~> 0.7.0"
 
-
+#GEM FOR using email locally
+gem 'letter_opener', group: :development
 
 # Use SCSS for styleshe:essor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
