@@ -5,7 +5,7 @@ ruby '2.2.1'
 gem 'rails', '4.2.5.1'
 # Use sqlite3 as the database for development and test
 gem 'sqlite3' , group: [:development , :test]
-gem  'bootstrap-sass'
+gem 'bootstrap-sass'
 gem 'pg' , group: :production
 
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
@@ -27,9 +27,9 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 
 #add active admin
-gem "activeadmin", github: 'gregbell/active_admin'
+gem 'activeadmin','~> 1.0.0.pre2'
 #add devise
-gem "devise"
+gem 'devise'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
